@@ -1,6 +1,6 @@
 const SpotifyAuth = (() => {
   // Vaihda tämä omaan Spotify App Client ID:hen
-  const CLIENT_ID = "YOUR_SPOTIFY_CLIENT_ID";
+  const CLIENT_ID = "191fb613044f4862bc1c7c92f14547ff";
   const REDIRECT_URI = window.location.origin + window.location.pathname;
 
   const SCOPES = [
