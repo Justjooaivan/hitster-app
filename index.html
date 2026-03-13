@@ -1,1 +1,35 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitster Music Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>🎵 Hitster Music Game</h1>
+
+    <section class="card">
+      <p id="status">Valmis. Kirjaudu Spotifyyn aloittaaksesi.</p>
+
+      <div class="controls">
+        <button id="loginBtn">Kirjaudu Spotifyyn</button>
+        <button id="nextBtn" disabled>Seuraava kappale</button>
+        <button id="answerBtn" disabled>Näytä vastaus</button>
+      </div>
+
+      <div id="answer" class="answer hidden"></div>
+    </section>
+
+    <p class="hint">
+      Huom: Spotify Web Playback SDK vaatii Spotify Premium -tilin.
+    </p>
+  </main>
+
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
+  <script src="spotify.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
 
